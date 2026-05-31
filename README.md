@@ -9,32 +9,12 @@
 Для каждой темы приведены скрипты создания таблиц, наполнения тестовыми данными, описание задач и сами запросы‑решения.
 
 ## Структура репозитория
-├── vehicles/
-│ ├── tasks.md # описание задач
-│ ├── create_tables.sql # создание таблиц
-│ ├── insert_data.sql # вставка тестовых данных
-│ ├── task1.sql
-│ ├── task2.sql
-│ └── ...
-├── races/
-│ ├── tasks.md
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ ├── task1.sql
-│ └── ...
-├── hotels/
-│ ├── tasks.md
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ ├── task1.sql
-│ └── ...
-├── organization/
-│ ├── tasks.md
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ ├── task1.sql
-│ └── ...
-└── README.md
+- Есть директории по названимя БД: vehicles, races, hotels, organizations
+- В каждой директории файл tasks.md с задачами
+- В каждой директории скрипт создания таблиц create_tables.sql
+- В каждой директории скрипт наполнения данными insert_data.sql
+- В каждой директории SQL-скрипты по задачам: task1.sql, task2.sql...
+
 
 
 ## Как использовать
