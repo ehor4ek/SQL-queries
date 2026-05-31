@@ -1,0 +1,13 @@
+# Автоопределение текстовых файлов
+* text=auto
+
+# SQL-файлы и документация
+*.sql    text
+*.md     text
+*.yml    text
+*.yaml   text
+
+# Бинарные файлы (если есть)
+*.png    binary
+*.jpg    binary
+*.ico    binary
